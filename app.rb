@@ -6,7 +6,7 @@ class App < Sinatra::Base
 		#{}"<h1>hello world</h1>"
 	#end
 
-	get '/views' do
+	get '/' do
 		erb :index
 	end
 
@@ -14,7 +14,7 @@ class App < Sinatra::Base
 	#	 "Testing the info page"
 	 #end
 
-	get '/views' do
+	get '/' do
     erb :info
   end
 
