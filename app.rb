@@ -10,7 +10,7 @@ class App < Sinatra::Base
 		erb :index
 	end
 
-	get '/info' do
+	get '/' do
 		 "Testing the info page"
 	 end
 
